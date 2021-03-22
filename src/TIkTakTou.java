@@ -1,4 +1,3 @@
-
 public class TIkTakTou {
     public static void main(String[] args) {
 

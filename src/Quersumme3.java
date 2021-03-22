@@ -1,5 +1,3 @@
-
-
 public class Quersumme3 {
     public static void main(String[] args) {
 

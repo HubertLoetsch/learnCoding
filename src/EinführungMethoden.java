@@ -1,7 +1,4 @@
-
-
 import java.util.Scanner;
-
 public class EinführungMethoden {
 
     public static void main(String[] args) {  //Klasse

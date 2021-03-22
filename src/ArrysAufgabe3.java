@@ -1,4 +1,3 @@
-
 import java.util.Arrays;
 public class ArrysAufgabe3 {
     public static void main(String[] args) {

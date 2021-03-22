@@ -1,5 +1,3 @@
-
-
 public class Methoden1Calculations {
     public static void main(String[] args) {
 /*
