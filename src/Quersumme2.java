@@ -13,8 +13,8 @@ public class Quersumme2 {
                 sum = sum + Character.getNumericValue(numbers[i]);
             }
             //
-            int rest = sum % 7;
-            if (rest == 0){
+            int rest = sum % 10;
+            if (rest >= 10){
                 System.out.println("nummer: " + cnt + "Quersumme: " + sum);
             }
 
@@ -22,3 +22,24 @@ public class Quersumme2 {
         }
     }
 }
+
+
+/*
+for (int i = 1; i < 1000; i++) {
+    int zahl = i;
+    int qs = 0;
+    while (zahl > 0) {
+        qs = qs + zahl % 10;
+        zahl = zahl / 10;
+    }
+    System.out.println(i + " = " + qs);
+    if (qs >= 10) {
+        int iqs = 0;
+        while (qs > 0) {
+            iqs = iqs + qs % 10;
+            qs = qs / 10;
+        }
+        System.out.println("--> " + iqs);
+    }
+}
+ */
